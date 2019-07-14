@@ -8,3 +8,15 @@ body {
   background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(12,73,130,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#0c4982', GradientType=1 );
 }
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 29px;
+  letter-spacing: 1.6px;
+  word-spacing: -1.4px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
