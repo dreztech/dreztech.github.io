@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var colors = ['c1','c2','c3','c4'];
+    var colors = ['c1','c2','c3','c4','c5'];
     var randColorNum = Math.floor(Math.random() * colors.length);
     $("#wrapper").removeClass().addClass(colors[randColorNum]);
 
