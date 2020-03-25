@@ -61,6 +61,20 @@ table {
   font-size: 46px;
 }
 
+.bentonsansregular {
+  font-family: "Benton Sans Reg";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bentonsansbook {
+  font-family: "Benton Sans Bk";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
 #wrapper {
   height: 100vh; 
   background-image: url("bg_pattern.png"); 
@@ -79,6 +93,11 @@ table {
 
 }
 #b3{
+  font-family: "Benton Sans Reg";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
   text-align: center;
   margin-top: 60px;
 }
+
