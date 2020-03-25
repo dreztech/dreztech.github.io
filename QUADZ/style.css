@@ -93,15 +93,16 @@ table {
 
 }
 #b3{
-  font-family: 'Benton SBkanBks Reg', Arial, Helvetica, sans-serif;;
+  font-family: 'Benton Sans Reg', Arial, Helvetica, sans-serif;
   font-display: swap;
   font-style: normal;
   font-weight: normal;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 22px;
   text-align: center;
   margin-top: 60px;
 }
 P{
-  padding-top:20px;
+  padding-top:18px;
 }
 
