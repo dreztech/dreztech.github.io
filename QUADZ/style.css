@@ -79,18 +79,17 @@ table {
   height: 100vh; 
   background-image: url("bg_pattern.png"); 
   background-repeat: repeat; 
-  padding-top: 130px;
 }
 
 #b1 {
   font-family: 'brilliant_starlightregular', Arial, Helvetica, sans-serif;
   font-size: 128px;
   text-align: center;
+  margin-top: 50px;
 }
 #b2 {
   text-align: center;
-  margin-top: 50px;
-
+  padding-top:160px;
 }
 #b3{
   font-family: 'Benton Sans Reg', Arial, Helvetica, sans-serif;
