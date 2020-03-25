@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#wrapper {
+  height: 100vh; 
+}
+
+#drezquote {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 29px;
+  letter-spacing: 1.6px;
+  word-spacing: -1.4px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: center;
+  padding: 20% 10%;
+}
+
+.c1 {
+  background: rgba(73,155,234,1);
+  background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(12,73,130,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(12,73,130,1)));
+  background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(12,73,130,1) 100%);
+  background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(12,73,130,1) 100%);
+  background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(12,73,130,1) 100%);
+  background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(12,73,130,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#0c4982', GradientType=1 );
+}
+
+.c2 {
+  background: rgba(179,27,0,1);
+  background: -moz-linear-gradient(left, rgba(179,27,0,1) 0%, rgba(240,47,23,1) 82%, rgba(246,41,12,1) 85%, rgba(231,56,39,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,27,0,1)), color-stop(82%, rgba(240,47,23,1)), color-stop(85%, rgba(246,41,12,1)), color-stop(100%, rgba(231,56,39,1)));
+  background: -webkit-linear-gradient(left, rgba(179,27,0,1) 0%, rgba(240,47,23,1) 82%, rgba(246,41,12,1) 85%, rgba(231,56,39,1) 100%);
+  background: -o-linear-gradient(left, rgba(179,27,0,1) 0%, rgba(240,47,23,1) 82%, rgba(246,41,12,1) 85%, rgba(231,56,39,1) 100%);
+  background: -ms-linear-gradient(left, rgba(179,27,0,1) 0%, rgba(240,47,23,1) 82%, rgba(246,41,12,1) 85%, rgba(231,56,39,1) 100%);
+  background: linear-gradient(to right, rgba(179,27,0,1) 0%, rgba(240,47,23,1) 82%, rgba(246,41,12,1) 85%, rgba(231,56,39,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b31b00', endColorstr='#e73827', GradientType=1 );
+}
+
+.c3 {
+  background: rgba(191,53,127,1);
+  background: -moz-linear-gradient(left, rgba(191,53,127,1) 0%, rgba(176,16,101,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(191,53,127,1)), color-stop(100%, rgba(176,16,101,1)));
+  background: -webkit-linear-gradient(left, rgba(191,53,127,1) 0%, rgba(176,16,101,1) 100%);
+  background: -o-linear-gradient(left, rgba(191,53,127,1) 0%, rgba(176,16,101,1) 100%);
+  background: -ms-linear-gradient(left, rgba(191,53,127,1) 0%, rgba(176,16,101,1) 100%);
+  background: linear-gradient(to right, rgba(191,53,127,1) 0%, rgba(176,16,101,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf357f', endColorstr='#b01065', GradientType=1 );}
+
+.c4 {
+  background: rgba(54,191,0,1);
+  background: -moz-linear-gradient(left, rgba(54,191,0,1) 0%, rgba(46,230,55,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(54,191,0,1)), color-stop(100%, rgba(46,230,55,1)));
+  background: -webkit-linear-gradient(left, rgba(54,191,0,1) 0%, rgba(46,230,55,1) 100%);
+  background: -o-linear-gradient(left, rgba(54,191,0,1) 0%, rgba(46,230,55,1) 100%);
+  background: -ms-linear-gradient(left, rgba(54,191,0,1) 0%, rgba(46,230,55,1) 100%);
+  background: linear-gradient(to right, rgba(54,191,0,1) 0%, rgba(46,230,55,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36bf00', endColorstr='#2ee637', GradientType=1 );
+}
+
+.c5 {
+  background: rgba(255,175,75,1);
+  background: -moz-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(255,146,10,1)));
+  background: -webkit-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+  background: linear-gradient(to right, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=1 );
+}
