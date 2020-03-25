@@ -77,7 +77,8 @@ table {
 
 #wrapper {
   height: 100vh; 
-  background-image: url("bg_pattern.png"); 
+  /*background-image: url("bg_pattern.png"); */
+  background-color: white; 
   background-repeat: repeat; 
 }
 
