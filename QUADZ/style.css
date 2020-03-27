@@ -55,24 +55,22 @@ table {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'bentonsansbook';
+  src: url('bentonsans_book-webfont.woff2') format('woff2'),
+       url('bentonsans_book-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 .brilliantfont {
   font-family: 'brilliant_starlightregular';
   font-size: 46px;
 }
 
-.bentonsansregular {
-  font-family: "Benton Sans Reg";
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-}
-
 .bentonsansbook {
-  font-family: "Benton Sans Bk";
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "bentonsansbook";
 }
 
 #wrapper {
@@ -93,17 +91,23 @@ table {
   padding-top:260px;
 }
 #b3{
-  font-family: 'Benton Sans Reg', Arial, Helvetica, sans-serif;
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 28px;
+  font-family: 'bentonsansbook';
+  font-size: 20px;
+  color: black;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 66px;
   padding: 0 190px;
 }
 P{
   padding-top:18px;
+}
+a{
+  font-family:  'bentonsansbook', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }
 
