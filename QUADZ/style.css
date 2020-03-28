@@ -64,15 +64,6 @@ table {
 
 }
 
-.brilliantfont {
-  font-family: 'brilliant_starlightregular';
-  font-size: 46px;
-}
-
-.bentonsansbook {
-  font-family: "bentonsansbook";
-}
-
 #wrapper {
   height: 100vh; 
   /*background-image: url("bg_pattern.png"); */
@@ -81,16 +72,18 @@ table {
 }
 
 #b1 {
+  text-align: center;
+  padding-top:260px;
+}
+
+#b2 {
   font-family: 'brilliant_starlightregular', Arial, Helvetica, sans-serif;
   font-size: 128px;
   text-align: center;
   margin-top: 50px;
 }
-#b2 {
-  text-align: center;
-  padding-top:260px;
-}
-#b3{
+
+#b3 {
   font-family: 'bentonsansbook';
   font-size: 20px;
   color: black;
@@ -98,16 +91,17 @@ table {
   margin-top: 66px;
   padding: 0 190px;
 }
-P{
+
+P {
   padding-top:18px;
 }
-a{
+a {
   font-family:  'bentonsansbook', Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: black;
   text-decoration: none;
 }
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
