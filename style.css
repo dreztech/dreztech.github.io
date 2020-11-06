@@ -66,6 +66,12 @@ table {
   padding: 20% 10%;
 }
 
+.drezimg {
+  height: 70vh;
+  padding-top: 15vh;
+  text-align: center;
+}
+
 .c1 {
   background: rgba(73,155,234,1);
   background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(12,73,130,1) 100%);
