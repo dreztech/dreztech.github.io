@@ -8,6 +8,7 @@ html {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  border-color: #000;
 
   object-fit: cover;
   object-position: center right;
