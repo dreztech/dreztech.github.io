@@ -9,6 +9,7 @@ html {
   height: 150px;
   border-radius: 50%;
   border-color: #000;
+  border-width: 1px;
 
   object-fit: cover;
   object-position: center right;
