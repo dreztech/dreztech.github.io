@@ -38,6 +38,11 @@ html {
   align-items: center;
 }
 
+a {
+  text: white;
+  text-decoration: none;
+}
+
 
 #stars {
   width: 1px;
