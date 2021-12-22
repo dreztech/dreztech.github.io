@@ -5,8 +5,8 @@ html {
 }
 
 .image--cover {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   border-color: #000;
   border-width: 1px;
@@ -97,7 +97,7 @@ a {
 
 #title {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 0;
   right: 0;
   color: #FFF;
