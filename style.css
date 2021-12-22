@@ -22,13 +22,8 @@ html {
   width: 100%;
   background: white;
   opacity: 0.1;
-  color: white;
   text-align: center;
-}
-
-a {
-  text-decoration: none;
-  color: black;
+  color:black;
 }
 
 #flex-container {
@@ -44,7 +39,7 @@ a {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -102,7 +97,7 @@ a {
 
 #title {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 0;
   right: 0;
   color: #FFF;
@@ -114,6 +109,7 @@ a {
   margin-top: -60px;
   padding-left: 10px;
 }
+
 #title span {
   background: -webkit-linear-gradient(white, #38495a);
   background-clip: text;
