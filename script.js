@@ -5,7 +5,6 @@ $(document).ready(function(){
     $.get('drezquotes.txt', function(txt) {
         var lines = txt.split('\n');
         var randLineNum = Math.floor(Math.random() * lines.length);
-        console.log(lines[randLineNum]);
         $('#drezquote').text(lines[randLineNum]); // random line from the text file
     });
 });
